@@ -51,5 +51,5 @@ for i in range(no_of_pages):
 data = pd.DataFrame({'Title':titles,'Describtion':describtion,'Info':info,'Link':links})
 data.index = data.index + 1
 print(data)
-data.to_csv(r'C:\Users\omars\OneDrive\Desktop\scrappers\Scrapper_upwork.csv')
+data.to_csv(#path to save csv file in )
 edge.quit()
